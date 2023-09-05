@@ -1,0 +1,98 @@
+/* Style for mobile  */
+@media screen and (max-width: 767px) {
+    img, iframe {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        padding: 20px;
+    }
+
+    .mobile-menu .hamburger {
+        width: 30px;
+        height: 30px;
+        background-image: url(./../img/hamburger.png);
+        background-size: cover;
+    }
+
+    .mobile-menu ul {
+        display: none;
+    }
+
+    .mobile-menu:hover > ul {
+        display: block;
+    }
+
+    .header .mobile-menu ul li {
+        display: block;
+        margin: 6px;
+    }
+    
+    .promo .container {
+        flex-direction: column;
+
+
+    }
+    
+    .container {
+        padding: 0px;
+    }
+
+    .promo .left_block {
+        padding: 15px;
+    }
+
+    .about h2 {
+        margin-top: 0px;
+    }
+
+    .about .container ul {
+        margin-left: 0px;
+    }
+    
+    .cards .container {
+        flex-direction: column;
+        
+    }
+
+    .slider {
+        width: 100%;
+        height: auto 0;
+        /* position: relative;
+        margin: 0 auto; */
+       }
+    
+    .swiper{
+        width: 100%;
+        height: auto 0;
+      }
+    
+    .swiper-slide{
+        width: 100%;
+        height: auto 0;
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+      }
+
+    .video .container iframe {
+        width: auto;
+        height: auto;
+        margin: 5px;
+    }
+
+    .footer .container p {
+        font-size: 17px;
+        padding: 0px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+}
